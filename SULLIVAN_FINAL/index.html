@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nonni Sullivan Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- Welcome Page -->
+<div id="welcome" class="page active">
+  <h1>Welcome to Gapachi Forest!</h1>
+  <img src="images/Advertisement Poster.jpg" alt="Poster">
+  <p>The theme for this virtual art exhibition revolves around whimsical forests, their magical inhabitants, and finding a fulfilling life within the strangeness sewn into the very fabric of their world. After all, weird is the new normal. The trees can talk, the deer have too many eyes, and pondside tea parties are an average pastime! There are mermaids in your community pools and tiny sheep flurry in airborne herds like clumps of cottonwood fluff. Color is wildly abundant and caring neighbors are never too far away; perhaps the local shepherd can let you in on some of the local gossip if you help her wrangle her flock. My exhibition will display a series of  illustrations set in the world described above; visitors can expect to see eccentric characters and the colorful setting they live in. From mermaids and itty bitty sheep to tree women and sentient rutabagas, viewers are in for a treat as delightful and whimsical as the denizens of the forest.</p>
+  <button onclick="showPage('bios')">Enter Gallery</button>
+</div>
+
+<!-- Character Bios Page -->
+<div id="bios" class="page">
+  <h1>Character Bios</h1>
+  <p>Click on each character to learn more about them!</p>
+  <div class="bio-grid">
+    <div class="bio-image" onclick="showPage('hennley')">
+      <img src="images/Hennley.png" alt="Hennley">
+      <div class="bio-name">Hennley</div>
+    </div>
+    <div class="bio-image" onclick="showPage('darcie')">
+      <img src="images/Darcie.png" alt="Darcie">
+      <div class="bio-name">Darcie</div>
+    </div>
+    <div class="bio-image" onclick="showPage('moira')">
+      <img src="images/Moira.png" alt="Moira">
+      <div class="bio-name">Moira</div>
+    </div>
+    <div class="bio-image" onclick="showPage('bastet and anubis')">
+      <img src="images/Bastet_and_Anubis.png" alt="Bastet and Anubis">
+      <div class="bio-name">Bastet and Anubis</div>
+    </div>
+    <div class="bio-image" onclick="showPage('larch')">
+      <img src="images/Larch.png" alt="Larch">
+      <div class="bio-name">Larch</div>
+    </div>
+    <div class="bio-image" onclick="showPage('bibi and ruthabaga')">
+      <img src="images/Bibi_and_Ruthabaga.png" alt="Bibi and Ruthabaga">
+      <div class="bio-name">Bibi and Ruthabaga</div>
+    </div>
+  </div>
+  <button onclick="showPage('art')">View Illustrations</button>
+</div>
+
+<!-- Individual Character Bio Pages -->
+<div id="hennley" class="page">
+  <h1>Hennley</h1>
+  <img src="images/Hennley.png" alt="Hennley">
+  <p>Hennley is Gapachi Forest’s very own cottonwood sheep shepherd! With her butterfly net and a lot of patience, she wrangles her tiny sheep every single day. They’re more than just simple pets or livestock to her – she loves them like family. You’ll never see Hennley without at least one of her sheep. Howard, the lone black sheep in her flock, can often be seen peeking his head out from the pockets of her overalls.
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+</div>
+
+<div id="darcie" class="page">
+  <h1>Darcie</h1>
+  <img src="images/Darcie.png" alt="Darcie">
+  <p>Darcie is Hennley’s best friend and the local algae enthusiast! She makes sure her pond’s ecosystem is in tip-top shape at all times. She sees Hennley every Tuesday for tea, but she often wishes she could venture out onto land once in a while. One of her biggest dreams is to explore the world outside her little pond – she especially wants to see Hennley’s ranch in person.</p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+</div>
+
+<div id="moira" class="page">
+  <h1>Moira</h1>
+  <img src="images/Moira.png" alt="Moira">
+  <p>Moira is Hennley’s older brother. Hennley has sheep hooves, but Moira got most of the sheep genes, as you can see. He loves the flock, but he was more than happy to let Hennley inherit the family ranch. After all, he’s married with two children. Magpie, his half-snake wife, is more than happy that he occupies his time with their daughters instead of the sheep.
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+</div>
+
+<div id="bastet and anubis" class="page">
+  <h1>Bastet and Anubis</h1>
+  <img src="images/Bastet_and_Anubis.png" alt="Bastet and Anubis">
+  <p>Bastet is self-proclaimed royalty – all because her parents named her after an Egyptian goddess. She’s a bit snooty, but she’s the most generous woman in the woods. She donates a lot of her wealth to the local charities, and her dog, aptly named Anubis, came from the shelter she volunteers at every weekend.</p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+</div>
+
+<div id="bibi and ruthabaga" class="page">
+  <h1>Bibi and Ruthabaga</h1>
+  <img src="images/Bibi_and_Ruthabaga.png" alt="Bibi and Ruthabaga">
+  <p>Bibi and Ruthabaga live in the cottage down by the ocean. Bibi pulled Ruthabaga right out of the ground, and they’ve been friends ever since. They run one of the best produce stands down at the marketplace! Ruthabaga has found a lot of success in selling handmade dresses, dolls, and fabric. She sources the wool straight from Hennley’s ranch.
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+</div>
+
+<div id="larch" class="page">
+  <h1>Larch</h1>
+  <img src="images/Larch.png" alt="Larch">
+  <p>Larch is the wisest witch in the wood! She’s also the matriarch of the entire community. She’s who everyone comes to when they need a helping hand or a shoulder to cry on. She deeply cares for every creature of the forest, big and small, and has no qualms taking in anyone who may need it! Often referred to as “Mama Larch”, she has no problem defending what’s hers when the occasion calls for it.</p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+</div>
+
+<!-- Artwork Pages -->
+<div id="art" class="page">
+  <img src="images/Hennley Character Sheet.jpg" alt="Hennley Turn-Around">
+  <h1>Hennley Turn-Around</h1>
+  <h2>(Digital, 1920 x 1080)</h2>
+  <p>This is Hennley. Hennley is the main focus of this magical little world – she’s the local shepherd who inherited the Cottonwood Sheep Ranch from her late parents. It’s her sworn duty to nurture and protect her teeny little flock with pride and heart. This is a turn-around of her full design (her work uniform, specifically). Visually, she’s one of the more average members of the community, but under the surface, she’s part sheep herself. However, small hints can be seen peeking their way through; she has hooves! Get her fired up, though, and you may see more animal than girl.
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+  <button onclick="showPage('art2')">Next</button>
+</div>
+
+<div id="art2" class="page">
+  <img src="images/_Pondside_Teaparty.jpg" alt="Pondside Tea Party">
+  <h1>Pondside Tea Party</h1>
+  <h2>(Digital, 1920 x 1080)</h2>
+  <p>Pondside tea parties are a favorite pastime of shepherd Hennley and her best friend, Darcie – a pond mermaid and local algae conservationist. Hennley is especially fond of Darcie’s pond because the grass is pink! It’s a fun treat for her flock to munch on every Tuesday. This piece is a depiction of one of those many tea parties between Hennley and Darcie. Despite the differences in their species, the pair always finds a way to spend time together.
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+  <button onclick="showPage('art')">Previous</button>
+  <button onclick="showPage('art3')">Next</button>
+</div>
+
+<div id="art3" class="page">
+  <img src="images/Bibi Concept.jpg" alt="Bibi by the Sea">
+  <h1>Bibi by the Sea</h1>
+  <h2>(Digital, 1920 x 1080)</h2>
+  <p>Bibi is a cocker spaniel with a love for gardening. She lives in a little yellow cottage by the sea – a cottage that once belonged to her dear mother. Her roommate, Ruthabaga, is as home-grown as you can get. She crawled straight out of the garden, and now she’s here to stay! Bibi certainly doesn’t mind. It means she’s not alone anymore. She gets a wide array of visitors to her garden throughout the day. One of her most frequent guests is a spindly orange deer with a myriad of eyeballs. The one in the middle of his forehead always lets off an eerie glow… I wonder what that’s about?
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+  <button onclick="showPage('art2')">Previous</button>
+  <button onclick="showPage('art4')">Next</button>
+</div>
+
+<div id="art4" class="page">
+  <img src="images/Hennley_Outfit_Test.jpg" alt="Hennley's Wardrobe">
+  <h1>Hennley’s Wardrobe</h1>
+  <h2>(Digital, 1920 x 1080)</h2>
+  <p>There’s more to Hennley than just her work uniform! From partywear and pajamas to swimsuits and snow hats, she’s ready for anything! This piece is to show the versatility of characters within the forest. While it only represents Hennley, it’s purpose is to show the many colorful facets of her character that solidify her place in her community. Despite the strange nature of her world, there’s a sense of familiarity for the viewer, too.
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+  <button onclick="showPage('art3')">Previous</button>
+  <button onclick="showPage('art5')">Next</button>
+</div>
+
+<div id="art5" class="page">
+  <img src="images/Gapachi_Marketplace.jpg" alt="Gapachi Forest Marketplace">
+  <h1>Gapachi Forest Marketplace</h1>
+  <h2>(Digital, 1920 x 1080)</h2>
+  <p>The Gapachi Forest Marketplace is the social hub of the community! Inhabitants from every corner of the forest come here to shop and catch up with their friends. Here, you can shop for fresh produce, new dresses, or a spell or two from the local witch. Whatever you need, you’ll probably find it in one of the many stalls. When you’re done, why not pick some apples from the orchard surrounding it? I’m sure the crows wouldn’t mind sharing (if you ask nicely, that is).
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+  <button onclick="showPage('art4')">Previous</button>
+  <button onclick="showPage('art6')">Next</button>
+</div>
+
+<div id="art5" class="page">
+  <img src="images/Hennley's_Room.jpg" alt="Shepherd's Quarters">
+  <h1>Shepherd's Quarters</h1>
+  <h2>(Digital, 1920 x 1080)</h2>
+  <p>The inside of the Cottonwood Sheep Ranch’s shepherd’s lodge is a secret to many, but not to you! Hennley is very private about her room, but she doesn’t mind sharing it with her flock on particularly chilly nights. Bright magentas and golds contrast with earthy greens and browns to create a warm environment that Hennley loves to call home. Her sheep have no problem squeezing under doors and windows for a surprise visit.    
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+  <button onclick="showPage('art4')">Previous</button>
+  <button onclick="showPage('art6')">Next</button>
+</div>
+
+<div id="art6" class="page">
+  <img src="images/Bubble Buddies.jpg" alt="Bubble Buddies">
+  <h1>Bubble Buddies</h1>
+  <h2>(Digital, 1920 x 1080)</h2>
+  <p>When pondside tea parties are simply not enough, Darcie can magic up a bubble helmet that allows Hennley to venture to the bottom of the pond! It’s a nice break from the world above, and it allows Hennley to spend a bit more quality time with her dearest friend. Despite the initial grey, murky appearance of the water from the shore, the pond floor is teeming with life and color. Biological differences can’t stop this dynamic duo from hanging out!  
+    </p>
+  <button onclick="showPage('bios')">Back to Bios</button>
+  <button onclick="showPage('art5')">Previous</button>
+  <button onclick="showPage('end')">Next</button>
+</div>
+
+<div id="end" class="page">
+  <h1>Thank you so much for visiting!</h1>
+  <h2>I hope you enjoyed your time in the forest! We all loved having you here.</h2>
+ 
+  <button onclick="showPage('welcome')">Back to the Beginning</button>
+  <button onclick="showPage('bios')">Back to Bios</button>
+  <button onclick="showPage('art1')">Back to the Illustrations</button>
+</div>
+
+<script>
+function showPage(pageId) {
+  const pages = document.querySelectorAll('.page');
+  pages.forEach(page => page.classList.remove('active'));
+  document.getElementById(pageId).classList.add('active');
+  window.scrollTo(0, 0);
+}
+</script>
+
+</body>
+</html>
